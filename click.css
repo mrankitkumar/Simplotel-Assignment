@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, orange, pink, pink);
+}
+.main{
+    margin: 20px;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,.box2 {
+    width: 50%;
+    box-sizing: border-box;
+   
+    
+}
+
+.box1  {
+    float: left;
+    padding: 30px;
+   
+    
+}
+.box2 {
+  
+    float: right;
+  margin-top: 150px;
+   align-items: center;
+  padding: 30px;
+   justify-content: center;  
+   background-color: rgb(233, 32, 32);
+   
+  
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container1 {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+    
+}
+.container2{
+  
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+.bar-parent{
+    margin-bottom: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ #name{
+    color: black; 
+    font-family: 'Roboto', sans-serif;                          
+} 
+ #content{
+    color: black; 
+    font-weight: 600;
+    font-size: XXX-large;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 10px;
+    margin-top: 30px;
+                              
+} 
+
+#bar{
+   width: 36vh;
+    height: 34vh;
+  
+}
+
+#street{
+    width: 36vh;
+    height: 34vh;
+}
+#food{
+    max-width: 100%;
+    height: 70vh;
+  
+}
+
+.arrow{
+    display: inline-flex;
+  margin-top: 30px;
+ 
+  
+}
+ #arror-img{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+
+    
+}
+#arror-one{
+    height: 25px;
+    padding: 5px;
+   
+    
+} 
